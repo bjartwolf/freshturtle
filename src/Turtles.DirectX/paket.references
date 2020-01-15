@@ -1,0 +1,10 @@
+SharpDX.Direct2D1
+SharpDX.Direct3D10
+FSharp.Core
+SharpDX
+SharpDX.DXGI
+SharpDX.D3DCompiler
+SharpDX.Desktop
+System.Windows.Forms
+SharpDX.Mathematics
+naudio

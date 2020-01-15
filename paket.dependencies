@@ -1,0 +1,12 @@
+source https://api.nuget.org/v3/index.json
+
+storage: none
+framework: netcore3.0, netstandard2.0, netstandard2.1,net48
+nuget FsCheck.Xunit
+nuget MathNet.Symbolics
+nuget naudio
+nuget SharpDX.Desktop
+nuget SharpDX.Direct2D1
+nuget SharpDX.Direct3D10
+nuget SharpDX.Mathematics
+nuget System.Windows.Forms
