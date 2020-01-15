@@ -35,3 +35,4 @@ msbuild.wrn
 .paket-files/paket.restore.cached
 .paket/
 packages/
+paket-files/paket.restore.cached
