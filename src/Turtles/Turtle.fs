@@ -1,7 +1,12 @@
 (*** hide ***)
 module My.Turtles
 open System
-//open Operators
+open System.Numerics
+open MathNet.Symbolics
+open MathNet.Numerics
+open MathNet
+
+open Operators
 
 (** 
 # Helper functions...
@@ -19,7 +24,7 @@ let convertRad2Deg x = x / radiansPerDegree
 let convertDeg2Rad x = x * radiansPerDegree 
 
 (** 
-The turtle is using floats, so we must round of to a certain number of digits
+he turtle is using floats, so we must round of to a certain number of digits
 at times to for example see that we are in approximately the same position as we started.
 *)
 let roundN (nrOfdoubles: int) (value:double) = Math.Round(value, nrOfdoubles)
